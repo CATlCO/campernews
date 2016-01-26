@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+* {
+  box-sizing: border-box;
+}
+
+.news {
+  text-align: center;
+  position: relative;
+}
+.article {
+  background-color: white;
+  position: absolute;
+  text-decoration: none;
+  width: 300px;
+  color: black;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  font-family: 'Lato';
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  display: none;
+}
+.author {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.author-pic {
+  width: 50px;
+  line-height: 0; 
+  text-align: left;
+  border-radius: 0 10px 10px 0;
+  margin-top: 5px;
+  background-color: white;
+}
+.author-name {
+  font-size: 15px;
+  padding: 5px;
+  background-color: #006400;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+.image, .title {
+  width: 300px;
+}
+.title, .descr {
+  text-align: left;
+}
+i {
+  margin-right: 5px;
+}
+.upvotes {
+  position: absolute;
+  width: 50px;
+  right: 10px;
+  top: 0;
+  background-color: #006400;
+  color: white;
+  padding: 15px 5px 5px 5px;
+  border-radius: 0 0 10px 10px;
+  display: none;
+}
+.title {
+  color: #5F5F5F;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 5px;
+}
+.descr {
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 20px;
+  padding: 5px;
+  text-align: justify;
+}
+.posted {
+  text-align: right;
+  padding: 5px;
+  color: #bfbfbf;
+}
+.underline {
+  text-decoration: underline;
+}
+#logo {
+  width: 300px;
+  display: inline;
+}
+h1 {
+  display: inline;
+  font-family: 'Homemade Apple';
+  font-size: 50px;
+  color: white;
+  padding-left: 30px;
+}
+nav {
+  background-color: #006400;
+  text-align: center;
+  padding: 20px;
+}

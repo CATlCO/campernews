@@ -1,0 +1,1 @@
+Simple newsfeed created as a part of FreeCodeCamp course.
